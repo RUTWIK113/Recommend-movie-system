@@ -1,7 +1,6 @@
 ## `Recommend A Movie - System`
 
 ```markdown
-# 🎬 Movie Recommender System
 
 Interactively explore movie recommendations built with classic machine learning techniques and a lightweight front end.
 
@@ -18,7 +17,6 @@ A simple yet powerful movie recommender that takes your favorite movies and sugg
 
 ## 📁 Repository Structure
 
-```
 
 movie\_recommender\_system/
 ├── Main.ipynb          # Exploratory Data Analysis + model development
@@ -26,7 +24,7 @@ movie\_recommender\_system/
 ├── app.py              # Simple Flask interface (optional UI)
 └── dataset.csv         # Movies ratings dataset (MovieLens-style)
 
-````
+
 
 ## 🛠 Installation
 
@@ -34,7 +32,7 @@ movie\_recommender\_system/
 git clone https://github.com/Chando0185/movie_recommender_system.git
 cd movie_recommender_system
 pip install -r requirements.txt  # scikit-learn, pandas, flask, etc.
-````
+
 
 ## 🎯 Usage
 
@@ -44,7 +42,7 @@ pip install -r requirements.txt  # scikit-learn, pandas, flask, etc.
 
   ```bash
   python main.py
-  ```
+
 
   Enter a movie ID or title to get top-5 suggestions.
 
@@ -52,7 +50,7 @@ pip install -r requirements.txt  # scikit-learn, pandas, flask, etc.
 
   ```bash
   python app.py
-  ```
+
 
   Navigate to `http://localhost:5000` to use the browser interface.
 
